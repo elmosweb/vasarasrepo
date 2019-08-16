@@ -11,15 +11,17 @@ require_once 'functions.php';
 $capsule = new Capsule;
 
 $capsule->addConnection([
-    'driver'    => 'mysql',
-    'host'      => 'localhost',
-    'database'  => 'quizzes',
-    'username'  => 'homestead',
-    'password'  => 'secret',
+    'driver'    => '_YOUR_DRIVER',
+    'host'      => '_YOUR_HOST',
+    'database'  => '_YOUR_DATABASE',
+    'username'  => '_YOUR USERNAME',
+    'password'  => '_YOUR PASSWORD',
     'charset'   => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix'    => '',
 ]);
+
+
 
 $capsule->setAsGlobal();
 $capsule->bootEloquent();
