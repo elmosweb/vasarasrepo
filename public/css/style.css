@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 200vh;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.content{
+    padding: 20px;
+    margin : 3em;
+    min-height: 30vh;
+}
+a:hover{
+    text-decoration: none;
+}
+.bg-tertiary{
+    background: #1A1E5F;
+}
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.third{
+    width:33%;
+}
+.sixty{
+    width:33%;
+}
+.hundred{
+    width:100%;
+}
